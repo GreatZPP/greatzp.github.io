@@ -78,4 +78,6 @@ theme: flyGoGoGo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:GreatZPP/greatzpp.github.io.git
+  breach: master
